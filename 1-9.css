@@ -37,3 +37,13 @@ span{
 	background-color: orange;
 	position: absolute;
 }
+
+@media screen and (max-width:768px){
+	.base{
+		width: 100%;
+	}
+	section{
+		float: none;
+		margin: 10px auto;
+	}
+}
