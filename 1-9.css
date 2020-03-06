@@ -3,3 +3,37 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.clearfix{
+	content: "";
+	display: block;
+	clear: both;
+}
+.base{
+	width: 960px;
+	margin: 50px 0;
+}
+section{
+	width: 300px;
+	border: 1px solid #C0C0C0;
+	float: left;
+	margin-right: 30px;
+}
+section:last-child{
+	margin-right: 0;
+}
+img{
+	width: 280px;
+	margin: 10px;
+}
+h1{
+	font-size: 20px;
+}
+p{
+	font-size: 17px;
+}
+span{
+	line-height: 30px;
+	color: white;
+	background-color: orange;
+	position: absolute;
+}
