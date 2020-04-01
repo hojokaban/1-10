@@ -46,4 +46,7 @@ span{
 		float: none;
 		margin: 10px auto;
 	}
+	section:last-child{
+		margin: 10px auto;
+	}
 }
